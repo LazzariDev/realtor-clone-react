@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background-color: #e4f0e9;
+}
+
+#password::-ms-reveal,
+#password::-ms-clear {
+    display: none;
+}
