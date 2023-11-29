@@ -10,3 +10,12 @@ body {
 #password::-ms-clear {
     display: none;
 }
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    color: #A8DADC
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background: #A8DADC !important;
+}
