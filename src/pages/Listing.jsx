@@ -87,7 +87,7 @@ export default function Listing() {
                         {listing.address}
                     </p>
                     <div className="flex justify-start items-center space-x-4 w-[75%]">
-                        <p className="bg-red-800 w-full max-w-[200px] rounded-md p-1 text-white text-center font-semibold shadow-md">{listing.type === "rent" ? "Rent" : "Sale"}</p>
+                        <p className="bg-red-800 w-full max-w-[200px] rounded-md p-1 text-white text-center font-semibold shadow-md">{listing.type === "rent" ? " For Rent" : "For Sale"}</p>
                         {listing.offer && (
                             <p className="w-full max-w-[200px] bg-green-800 rounded-md p-1 text-white text-center font-semibold shadow-md">${(+listing.regularPrice) - (+listing.discountedPrice)} discount</p>
                         )}
