@@ -19,3 +19,10 @@ body {
 .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
     background: #A8DADC !important;
 }
+
+html::-webkit-scrollbar {
+    display: none;
+}
+html {
+    scrollbar-width: none;
+}
